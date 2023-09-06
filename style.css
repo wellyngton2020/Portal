@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+.header {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(45deg, rgb(244, 248, 248), rgb(13, 110, 253));
+ }
+ 
+  
+.box-search{
+    display: flex;
+    justify-content: right;
+    gap: 0.1%;
+    margin-right: 10px;
+}
+
+.formularios{
+   margin-top: 20px;
+   margin-left: 10px;
+   font-weight: bold;
+}
+
+#divOrcamentos{
+   margin-top: 10px ;
+}
+
+#btnCadastrar{
+   margin-top: -5px;
+}
+
+#linkLogout{
+   right: 10px; 
+   position:absolute;
+   margin-top: 15px;
+
+}
+ 
+#cbLoja{
+   width: 100px;
+   height: 28px;
+   margin-top: 10px;
+}
+
+#btnPesquisar{
+   margin-top: -5px;
+}
+
+#txtTitle{
+   font-weight: bold;
+   color: rgb(13, 110, 253);
+}
+
+#searchData{
+   margin-bottom: 10px;
+}
+
+input[type=text]{
+   margin-right: 10px;
+}
+
+select{
+   margin-right: 10px;
+}
+
+#divPedidos{
+   display:none; 
+   width: 900px;
+   color: rgb(13, 110, 253);
+}
+
+#msgBemVindo{
+   right: 60px; 
+   position:absolute;
+   margin-top: 15px;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   font-size: 15px;
+}
+
+#contagemPedidos{
+   font-weight: bold;
+   text-align:center;
+}
+
+
